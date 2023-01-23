@@ -1,6 +1,6 @@
 # <img src="https://unpkg.com/@dunks1980/bay.js/favicon.svg?v=1" width="40"> bay.js starter project
 
-A simple starter project for bay.js using [Vite](https://vitejs.dev/) and [Jampack.](https://jampack.divriots.com/).<br />
+A simple starter project for bay.js using [Vite](https://vitejs.dev/) and [Jampack](https://jampack.divriots.com/).<br />
 If you wish to support this project please [buy me a coffee.](https://www.buymeacoffee.com/dunks1980) ☕
 <br />
 <br />
@@ -42,8 +42,3 @@ npm run preview
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-
-
-
-
