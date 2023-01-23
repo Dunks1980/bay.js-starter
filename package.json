@@ -1,7 +1,7 @@
 {
   "name": "bay-starter",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,7 @@
   "devDependencies": {
     "vite": "^4.0.0",
     "sass": "^1.56.1",
-    "@divriots/jampack": "^0.6.2"
+    "@divriots/jampack": "^0.7.2"
   },
   "dependencies": {
     "@dunks1980/bay.js": "^2.3.13"

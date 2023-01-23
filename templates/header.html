@@ -142,7 +142,9 @@
    
     <nav>
 
-      v.${this.version}
+      <if this="this.version">Current:${this.version}</if>
+      <if this="this.version && this.latest_version"> - </if>
+      <if this="this.latest_version">Latest:${this.latest_version}</if>
 
       <a rel="noopener" aria-label="email" href="mailto:info@dunks1980.com?subject=Mail from bay.js" target="_blank" class="email">
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -221,10 +223,15 @@
 
 <script>
   this.version = '';
+  this.latest_version = '';
   fetch('/node_modules/@dunks1980/bay.js/package.json')
     .then((response) => response.json())
     .then((json) => {
-      //console.log(json);
       this.version = json.version;
+    });
+  fetch('https://raw.githubusercontent.com/Dunks1980/bay.js/main/package.json')
+    .then((response) => response.json())
+    .then((json) => {
+      this.latest_version = json.version;
     });
 </script>
