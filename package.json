@@ -11,9 +11,9 @@
   "devDependencies": {
     "vite": "^4.0.0",
     "sass": "^1.56.1",
-    "@divriots/jampack": "^0.8.1"
+    "@divriots/jampack": "^0.9.1"
   },
   "dependencies": {
-    "@dunks1980/bay.js": "^2.4.9"
+    "@dunks1980/bay.js": "2.5.0"
   }
 }
