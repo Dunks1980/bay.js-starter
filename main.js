@@ -1,8 +1,8 @@
 import "/styles.scss";
 import bay from "@dunks1980/bay.js";
-import header_el from "./templates/header.html?raw";
-import logo_el from "./templates/logo.html?raw";
-import start_page from "./templates/start_page.html?raw";
+import header_el from "./templates/header.bay";
+import logo_el from "./templates/logo.bay";
+import start_page from "./templates/start_page.bay";
 
 bay();
 bay.create("start-page", start_page, ["prop-color"]);

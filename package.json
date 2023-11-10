@@ -14,6 +14,6 @@
     "@divriots/jampack": "^0.9.4"
   },
   "dependencies": {
-    "@dunks1980/bay.js": "3.2.4"
+    "@dunks1980/bay.js": "^3.2.8"
   }
 }
