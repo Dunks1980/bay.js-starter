@@ -7,7 +7,7 @@
     <p>
       An easy to use, lightweight library for web-components.
     </p>
-    <a href="https://bayjs.org/examples/index.html" target="_blank">
+    <a href="https://bayjs.org/examples?tab=installation&item=installation_esmodule" target="_blank">
       <button class="get-started"><span>View Examples on Bayjs.org</span> <span class="material-icons">arrow_forward</span></button>
     </a>
     <hr />
