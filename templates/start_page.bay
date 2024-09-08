@@ -21,7 +21,7 @@
       <div>
         <h2>Dynamic & Secure<span class="dot">.</span></h2>
         <p>
-        Bay.js updates only necessary parts of the HTML in real-time, and binds events securely without eval or new Function.
+        Bay.js updates only necessary parts of the HTML in real-time, and binds events securely without eval or new Function.  
         </p>
       </div>
       <div>
